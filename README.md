@@ -1,2 +1,5 @@
-# rust-patterns
-Implementation of popular design patterns in Rust
+# Rust-patterns
+Implementation of common design patterns in Rust.
+
+## Implemented Patterns
+- [Observer](https://sourcemaking.com/design_patterns/observer)
