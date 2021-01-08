@@ -2,5 +2,6 @@
 Implementation of common design patterns in Rust.
 
 ## Implemented Patterns
-- [Singleton](https://sourcemaking.com/design_patterns/singleton)
+- [Adapter](https://sourcemaking.com/design_patterns/adapter)
 - [Observer](https://sourcemaking.com/design_patterns/observer)
+- [Singleton](https://sourcemaking.com/design_patterns/singleton)
