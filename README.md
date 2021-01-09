@@ -5,3 +5,6 @@ Implementation of common design patterns in Rust.
 - [Adapter](https://sourcemaking.com/design_patterns/adapter)
 - [Observer](https://sourcemaking.com/design_patterns/observer)
 - [Singleton](https://sourcemaking.com/design_patterns/singleton)
+
+## Implemented Algorithms
+- [Quick sort](https://en.wikipedia.org/wiki/Quicksort)
