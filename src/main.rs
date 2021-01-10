@@ -8,6 +8,7 @@ use crate::algorithms::sort::run_heap_sort_algorithm;
 use crate::algorithms::sort::run_merge_sort_algorithm;
 use crate::algorithms::sort::run_quick_sort_algorithm;
 use crate::implementations::run_adapter_logic;
+use crate::implementations::run_decorator_logic;
 use crate::implementations::run_observer_logic;
 use crate::implementations::run_singleton_pattern;
 
@@ -17,6 +18,7 @@ fn main() {
     match pattern.as_str() {
         // Patterns
         "adapter" => run_adapter_logic(),
+        "decorator" => run_decorator_logic(),
         "observer" => run_observer_logic(),
         "singleton" => run_singleton_pattern(),
 
