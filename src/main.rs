@@ -4,6 +4,7 @@ mod algorithms;
 mod implementations;
 mod patterns;
 
+use crate::algorithms::sort::run_heap_sort_algorithm;
 use crate::algorithms::sort::run_quick_sort_algorithm;
 use crate::implementations::run_adapter_logic;
 use crate::implementations::run_observer_logic;
@@ -19,6 +20,7 @@ fn main() {
         "singleton" => run_singleton_pattern(),
 
         // Algorithms
+        "heap_sort" => run_heap_sort_algorithm(),
         "quick_sort" => run_quick_sort_algorithm(),
 
         _ => println!("Error: Invalid Command"),

@@ -7,4 +7,5 @@ Implementation of common design patterns in Rust.
 - [Singleton](https://sourcemaking.com/design_patterns/singleton)
 
 ## Implemented Algorithms
+- [Heap sort](https://en.wikipedia.org/wiki/Heapsort)
 - [Quick sort](https://en.wikipedia.org/wiki/Quicksort)
