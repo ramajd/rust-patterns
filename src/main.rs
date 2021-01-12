@@ -5,6 +5,7 @@ mod implementations;
 mod patterns;
 
 use crate::algorithms::sort::run_heap_sort_algorithm;
+use crate::algorithms::sort::run_insertion_sort_algorithm;
 use crate::algorithms::sort::run_merge_sort_algorithm;
 use crate::algorithms::sort::run_quick_sort_algorithm;
 use crate::algorithms::sort::run_selection_sort;
@@ -25,6 +26,7 @@ fn main() {
 
         // Algorithms
         "heap_sort" => run_heap_sort_algorithm(),
+        "insertion_sort" => run_insertion_sort_algorithm(),
         "merge_sort" => run_merge_sort_algorithm(),
         "quick_sort" => run_quick_sort_algorithm(),
         "selection_sort" => run_selection_sort(),

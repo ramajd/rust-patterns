@@ -9,6 +9,7 @@ Implementation of common design patterns in Rust.
 
 ## Implemented Algorithms
 - [Heap sort](https://en.wikipedia.org/wiki/Heapsort)
+- [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
 - [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
 - [Quick sort](https://en.wikipedia.org/wiki/Quicksort)
 - [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
