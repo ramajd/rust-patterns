@@ -11,3 +11,4 @@ Implementation of common design patterns in Rust.
 - [Heap sort](https://en.wikipedia.org/wiki/Heapsort)
 - [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
 - [Quick sort](https://en.wikipedia.org/wiki/Quicksort)
+- [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
