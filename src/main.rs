@@ -9,6 +9,7 @@ use crate::algorithms::sort::run_insertion_sort_algorithm;
 use crate::algorithms::sort::run_merge_sort_algorithm;
 use crate::algorithms::sort::run_quick_sort_algorithm;
 use crate::algorithms::sort::run_selection_sort;
+use crate::implementations::run_abstract_factory_pattern;
 use crate::implementations::run_adapter_logic;
 use crate::implementations::run_decorator_logic;
 use crate::implementations::run_observer_logic;
@@ -19,6 +20,7 @@ fn main() {
 
     match pattern.as_str() {
         // Patterns
+        "abstract_factory" => run_abstract_factory_pattern(),
         "adapter" => run_adapter_logic(),
         "decorator" => run_decorator_logic(),
         "observer" => run_observer_logic(),
