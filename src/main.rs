@@ -1,7 +1,6 @@
 use std::env;
 
 mod algorithms;
-mod implementations;
 mod patterns;
 
 use crate::algorithms::sort::run_heap_sort_algorithm;
@@ -9,11 +8,11 @@ use crate::algorithms::sort::run_insertion_sort_algorithm;
 use crate::algorithms::sort::run_merge_sort_algorithm;
 use crate::algorithms::sort::run_quick_sort_algorithm;
 use crate::algorithms::sort::run_selection_sort;
-use crate::implementations::run_abstract_factory_pattern;
-use crate::implementations::run_adapter_logic;
-use crate::implementations::run_decorator_logic;
-use crate::implementations::run_observer_logic;
-use crate::implementations::run_singleton_pattern;
+use crate::patterns::run_abstract_factory_pattern;
+use crate::patterns::run_adapter_logic;
+use crate::patterns::run_decorator_logic;
+use crate::patterns::run_observer_logic;
+use crate::patterns::run_singleton_pattern;
 
 fn main() {
     let pattern = env::args().nth(1).expect("pattern name is not specified!");
