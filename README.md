@@ -4,6 +4,7 @@ Implementation of common design patterns in Rust.
 ## Implemented Patterns
 - [Abstract factory](https://sourcemaking.com/design_patterns/abstract_factory)
 - [Adapter](https://sourcemaking.com/design_patterns/adapter)
+- [Builder](https://sourcemaking.com/design_patterns/builder)
 - [Decorator](https://sourcemaking.com/design_patterns/decorator)
 - [Observer](https://sourcemaking.com/design_patterns/observer)
 - [Singleton](https://sourcemaking.com/design_patterns/singleton)
