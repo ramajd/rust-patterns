@@ -8,6 +8,7 @@ Implementation of common design patterns in Rust.
 - [Decorator](https://sourcemaking.com/design_patterns/decorator)
 - [Factory method](https://sourcemaking.com/design_patterns/factory_method)
 - [Observer](https://sourcemaking.com/design_patterns/observer)
+- [Prototype](https://sourcemaking.com/design_patterns/prototype)
 - [Singleton](https://sourcemaking.com/design_patterns/singleton)
 
 ## Implemented Algorithms

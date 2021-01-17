@@ -11,9 +11,10 @@ use crate::algorithms::sort::run_selection_sort;
 use crate::patterns::run_abstract_factory_pattern;
 use crate::patterns::run_adapter_logic;
 use crate::patterns::run_builder_pattern;
-use crate::patterns::run_factory_logic;
 use crate::patterns::run_decorator_logic;
+use crate::patterns::run_factory_logic;
 use crate::patterns::run_observer_logic;
+use crate::patterns::run_prototype_logic;
 use crate::patterns::run_singleton_pattern;
 
 fn main() {
@@ -27,6 +28,7 @@ fn main() {
         "decorator" => run_decorator_logic(),
         "factory" => run_factory_logic(),
         "observer" => run_observer_logic(),
+        "prototype" => run_prototype_logic(),
         "singleton" => run_singleton_pattern(),
 
         // Algorithms
