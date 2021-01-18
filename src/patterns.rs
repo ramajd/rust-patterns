@@ -1,5 +1,6 @@
 mod abstractfactory;
 mod adapter;
+mod bridge;
 mod builder;
 mod decorator;
 mod factory;
@@ -9,6 +10,7 @@ mod singleton;
 
 pub use abstractfactory::*;
 pub use adapter::*;
+pub use bridge::*;
 pub use builder::*;
 pub use decorator::*;
 pub use factory::*;

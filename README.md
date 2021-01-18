@@ -2,14 +2,21 @@
 Implementation of common design patterns in Rust.
 
 ## Implemented Patterns
+
+### Creational
 - [Abstract factory](https://sourcemaking.com/design_patterns/abstract_factory)
-- [Adapter](https://sourcemaking.com/design_patterns/adapter)
 - [Builder](https://sourcemaking.com/design_patterns/builder)
-- [Decorator](https://sourcemaking.com/design_patterns/decorator)
 - [Factory method](https://sourcemaking.com/design_patterns/factory_method)
-- [Observer](https://sourcemaking.com/design_patterns/observer)
 - [Prototype](https://sourcemaking.com/design_patterns/prototype)
 - [Singleton](https://sourcemaking.com/design_patterns/singleton)
+
+### Structural
+- [Adapter](https://sourcemaking.com/design_patterns/adapter)
+- [Bridge](https://sourcemaking.com/design_patterns/bridge)
+- [Decorator](https://sourcemaking.com/design_patterns/decorator)
+
+### Behavioral
+- [Observer](https://sourcemaking.com/design_patterns/observer)
 
 ## Implemented Algorithms
 - [Heap sort](https://en.wikipedia.org/wiki/Heapsort)

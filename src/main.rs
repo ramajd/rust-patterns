@@ -10,6 +10,7 @@ use crate::algorithms::sort::run_quick_sort_algorithm;
 use crate::algorithms::sort::run_selection_sort;
 use crate::patterns::run_abstract_factory_pattern;
 use crate::patterns::run_adapter_logic;
+use crate::patterns::run_bridge_logic;
 use crate::patterns::run_builder_pattern;
 use crate::patterns::run_decorator_logic;
 use crate::patterns::run_factory_logic;
@@ -24,6 +25,7 @@ fn main() {
         // Patterns
         "abstract_factory" => run_abstract_factory_pattern(),
         "adapter" => run_adapter_logic(),
+        "bridge" => run_bridge_logic(),
         "builder" => run_builder_pattern(),
         "decorator" => run_decorator_logic(),
         "factory" => run_factory_logic(),
